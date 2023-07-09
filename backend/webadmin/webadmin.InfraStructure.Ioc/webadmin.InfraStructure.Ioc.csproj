@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\webadmin.Domain.Service\webadmin.Domain.Service.csproj" />
+    <ProjectReference Include="..\webadmin.Domain\webadmin.Domain.csproj" />
+    <ProjectReference Include="..\webadmin.InfraStructure.Data\webadmin.InfraStructure.Data.csproj" />
+  </ItemGroup>
 
 </Project>
