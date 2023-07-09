@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build ./backend/webadmin/webadmin.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ./backend/webadmin/webadmin.sln --no-build --verbosity normal
