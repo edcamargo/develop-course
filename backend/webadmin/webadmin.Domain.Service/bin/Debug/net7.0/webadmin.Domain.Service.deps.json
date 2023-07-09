@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "webadmin.Domain.Service/1.0.0": {
+        "runtime": {
+          "webadmin.Domain.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "webadmin.Domain.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\bin\Debug\net7.0\webadmin.InfraStructure.Data.deps.json
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\bin\Debug\net7.0\webadmin.InfraStructure.Data.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\bin\Debug\net7.0\webadmin.InfraStructure.Data.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.csproj.AssemblyReference.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.AssemblyInfoInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.AssemblyInfo.cs
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\refint\webadmin.InfraStructure.Data.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\webadmin.InfraStructure.Data.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Data\obj\Debug\net7.0\ref\webadmin.InfraStructure.Data.dll
