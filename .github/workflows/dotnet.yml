@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./webadmin/webadmin.sln
+      run: dotnet restore ./backend/webadmin/webadmin.sln
     - name: Build
-      run: dotnet build ./webadmin/webadmin.sln --no-restore
+      run: dotnet build ./backend/webadmin/webadmin.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ./backend/webadmin/webadmin.sln --no-build --verbosity normal
