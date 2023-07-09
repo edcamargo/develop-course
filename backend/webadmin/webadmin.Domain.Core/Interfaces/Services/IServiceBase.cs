@@ -1,6 +1,11 @@
 ﻿namespace webadmin.Domain.Core.Interfaces.Services
 {
-    internal interface IServiceBase
+    public interface IServiceBase<TEntity> where TEntity : class
     {
+        Task<IEnumerable<TEntity>> GetAllAsync();
+        Task<TEntity?> GetByIdAsync(int id);
+        Task AddRangeAsync(TEntity entity);
+        Task UpdateAsync(TEntity entity);
+        Task DeleteAsync(TEntity entity);
     }
 }
