@@ -1,0 +1,12 @@
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.InfraStructure.Ioc.deps.json
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.InfraStructure.Ioc.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.InfraStructure.Ioc.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.csproj.AssemblyReference.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.AssemblyInfoInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.AssemblyInfo.cs
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.csproj.CoreCompileInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\refint\webadmin.InfraStructure.Ioc.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\ref\webadmin.InfraStructure.Ioc.dll
