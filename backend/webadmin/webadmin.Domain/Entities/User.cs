@@ -36,7 +36,7 @@ namespace webadmin.Domain.Entities
             RuleFor(p => p.Password).NotEmpty().WithMessage("Sua senha não pode estar vazia")
                                     .MinimumLength(8).WithMessage("O tamanho da sua senha deve ser de pelo menos 8.")
                                     .MaximumLength(16).WithMessage("O tamanho da sua senha não deve exceder 16.")
-                                    .Matches(@"[A-Z]+").WithMessage("\r\nSua senha deve conter pelo menos uma letra maiúscula.")
+                                    .Matches(@"[A-Z]+").WithMessage("Sua senha deve conter pelo menos uma letra maiúscula.")
                                     .Matches(@"[a-z]+").WithMessage("Sua senha deve conter pelo menos uma letra minúscula.")
                                     .Matches(@"[0-9]+").WithMessage("Sua senha deve conter pelo menos um número.")
                                     .Matches(@"[\!\?\*\.]+").WithMessage("Sua senha deve conter pelo menos um (!? *.).");
