@@ -587,7 +587,6 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.8",
-      "webadmin.Domain >= 1.0.0",
       "webadmin.Domain.Core >= 1.0.0"
     ]
   },
@@ -626,9 +625,6 @@
           "projectReferences": {
             "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
               "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj"
-            },
-            "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj"
             }
           }
         }

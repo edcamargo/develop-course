@@ -165,9 +165,6 @@
             "projectReferences": {
               "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
                 "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj"
-              },
-              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj"
               }
             }
           }

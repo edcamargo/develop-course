@@ -99,9 +99,6 @@
             "projectReferences": {
               "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
                 "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj"
-              },
-              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj"
               }
             }
           }
@@ -115,6 +112,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

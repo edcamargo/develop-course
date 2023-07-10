@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\webadmin.Domain.Core\webadmin.Domain.Core.csproj" />
-    <ProjectReference Include="..\webadmin.Domain\webadmin.Domain.csproj" />
   </ItemGroup>
 
 </Project>

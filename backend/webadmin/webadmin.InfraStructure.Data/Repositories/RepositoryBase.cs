@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using webadmin.Domain.Core.Interfaces.Repositories;
+using webadmin.InfraStructure.Data.Context;
 
 namespace webadmin.InfraStructure.Data.Repositories
 {
     public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
-        private readonly DbContext _context;
+        private readonly DataContext _context;
 
-        public RepositoryBase(DbContext context)
+        public RepositoryBase(DataContext context)
         {
             _context = context;
         }

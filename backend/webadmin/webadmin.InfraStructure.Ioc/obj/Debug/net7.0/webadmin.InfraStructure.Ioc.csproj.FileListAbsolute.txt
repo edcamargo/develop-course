@@ -6,8 +6,8 @@ C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debu
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.Domain.Service.dll
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.InfraStructure.Data.dll
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.Domain.Service.pdb
-C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.Domain.pdb
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.InfraStructure.Data.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.Domain.pdb
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\bin\Debug\net7.0\webadmin.Domain.Core.pdb
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.csproj.AssemblyReference.cache
 C:\Projetos\develop-course\backend\webadmin\webadmin.InfraStructure.Ioc\obj\Debug\net7.0\webadmin.InfraStructure.Ioc.GeneratedMSBuildEditorConfig.editorconfig
