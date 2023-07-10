@@ -1,11 +1,16 @@
 ﻿using FluentValidation;
+using System.Diagnostics.CodeAnalysis;
 
 namespace webadmin.Domain.Entities
 {
+    [ExcludeFromCodeCoverage]
     public class Customer : Entity
     {
+        public string Name { get; private set; }
+        public string City { get; private set; }
+        public string Email { get; private set; }
+        public User User { get; private set; }
         public Customer() { }
-
         public Customer(string name, string city, string email, User user)
         {
             Name = name;
@@ -13,11 +18,6 @@ namespace webadmin.Domain.Entities
             Email = email;
             User = user;
         }
-
-        public string Name { get; private set; }
-        public string City { get; private set; }
-        public string Email { get; private set; }
-        public User User { get; private set; }
     }
 
     internal class CustomerValidation : AbstractValidator<Customer>

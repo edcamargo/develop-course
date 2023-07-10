@@ -1,20 +1,22 @@
 ﻿using FluentValidation;
+using System.Diagnostics.CodeAnalysis;
 
 namespace webadmin.Domain.Entities
 {
+    [ExcludeFromCodeCoverage]
     public class User : Entity
     {
-        //public User(){ }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        // Contrutores de sobrecarga
+        public User(){ }
         public User(string name, string email, string password)
         {
             Name = name;
             Email = email;
             Password = password;
         }
-
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
     }
 
     internal class UserValidation : AbstractValidator<User>
