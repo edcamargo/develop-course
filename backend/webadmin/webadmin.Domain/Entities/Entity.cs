@@ -11,7 +11,7 @@
         public Guid Id { get; private set; }
         public DateTime? DateRegister { get; private set; }
         
-        public bool Equals(Entity? other) 
+        public bool Equals(Entity other) 
             => Id == other?.Id;
         public void ConfirmationDateRegister() 
             => DateRegister = DateTime.Now;
