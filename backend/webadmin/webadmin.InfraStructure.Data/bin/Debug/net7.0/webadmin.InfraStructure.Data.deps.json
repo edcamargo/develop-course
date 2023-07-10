@@ -9,7 +9,6 @@
       "webadmin.InfraStructure.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.8",
-          "webadmin.Domain": "1.0.0",
           "webadmin.Domain.Core": "1.0.0"
         },
         "runtime": {

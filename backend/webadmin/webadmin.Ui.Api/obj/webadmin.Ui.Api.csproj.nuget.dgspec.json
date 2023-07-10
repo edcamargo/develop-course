@@ -4,6 +4,353 @@
     "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Ui.Api\\webadmin.Ui.Api.csproj": {}
   },
   "projects": {
+    "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj",
+        "projectName": "webadmin.Domain.Core",
+        "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj",
+        "projectName": "webadmin.Domain.Service",
+        "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj",
+        "projectName": "webadmin.Domain",
+        "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\webadmin.Domain.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\webadmin.InfraStructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\webadmin.InfraStructure.Data.csproj",
+        "projectName": "webadmin.InfraStructure.Data",
+        "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\webadmin.InfraStructure.Data.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Core\\webadmin.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\webadmin.InfraStructure.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\webadmin.InfraStructure.Ioc.csproj",
+        "projectName": "webadmin.InfraStructure.Ioc",
+        "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\webadmin.InfraStructure.Ioc.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj"
+              },
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\webadmin.InfraStructure.Data.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Data\\webadmin.InfraStructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Ui.Api\\webadmin.Ui.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,7 +380,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\webadmin.InfraStructure.Ioc.csproj": {
+                "projectPath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.InfraStructure.Ioc\\webadmin.InfraStructure.Ioc.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,9 +397,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

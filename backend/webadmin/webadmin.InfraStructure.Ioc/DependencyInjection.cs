@@ -8,15 +8,15 @@ namespace webadmin.InfraStructure.Ioc
 {
     public static class DependencyInjection
     {
-        public static void DependencyInjectionServices(ref IServiceCollection services)
+        public static void DependencyInjectionServices(this IServiceCollection services)
         {
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<ICustomerService, CustomerService>();
+            //services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ICustomerService, CustomerService>();
         }
 
-        public static void DependencyInjectionRepositories(ref IServiceCollection services)
+        public static void DependencyInjectionRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IUserRepository, UserRepository>();
+            //services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
         }
     }

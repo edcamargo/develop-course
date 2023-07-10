@@ -11,7 +11,7 @@ namespace webadmin.InfraStructure.Data.Context
 
         #region DbSet
 
-        public DbSet<User> User { get; set; }
+        //public DbSet<User> User { get; set; }
         public DbSet<Customer> Customer { get; set; }
 
         #endregion DbSet

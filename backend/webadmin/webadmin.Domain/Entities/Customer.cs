@@ -4,6 +4,8 @@ namespace webadmin.Domain.Entities
 {
     public class Customer : Entity
     {
+        public Customer() { }
+
         public Customer(string name, string city, string email, User user)
         {
             Name = name;
