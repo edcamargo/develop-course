@@ -23,7 +23,7 @@ namespace webadmin.Domain.Service.Services
         {
             return _repositoryBase.GetAllAsync();
         }
-        public Task<TEntity?> GetByIdAsync(int id)
+        public Task<TEntity> GetByIdAsync(object id)
         {
             return _repositoryBase.GetByIdAsync(id);
         }

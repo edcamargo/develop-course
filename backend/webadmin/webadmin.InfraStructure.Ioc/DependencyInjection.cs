@@ -10,13 +10,13 @@ namespace webadmin.InfraStructure.Ioc
     {
         public static void DependencyInjectionServices(this IServiceCollection services)
         {
-            //services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserService, UserService>();
             services.AddTransient<ICustomerService, CustomerService>();
         }
 
         public static void DependencyInjectionRepositories(this IServiceCollection services)
         {
-            //services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
         }
     }
