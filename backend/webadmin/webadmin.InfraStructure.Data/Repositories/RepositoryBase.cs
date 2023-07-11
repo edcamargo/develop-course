@@ -16,10 +16,11 @@ namespace webadmin.InfraStructure.Data.Repositories
         {
             return await _context.Set<TEntity>().ToListAsync();
         }
-        public async Task<TEntity?> GetByIdAsync(object id)
+        public async Task<TEntity> GetByIdAsync(object id)
         {
             return await _context.Set<TEntity>().FindAsync(id);
         }
+
         public async Task AddRangeAsync(TEntity entity)
         {
             await _context.Set<TEntity>().AddRangeAsync(entity);

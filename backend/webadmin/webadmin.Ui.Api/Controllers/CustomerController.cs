@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Http;
 using webadmin.Domain.Core.Interfaces.Services;
+using webadmin.Domain.Entities;
+using webadmin.Ui.Api.Dtos;
 
 namespace webadmin.Ui.Api.Controllers
 {
@@ -34,35 +37,97 @@ namespace webadmin.Ui.Api.Controllers
             }
             catch (ArgumentNullException e)
             {
-                _logger.LogError(e.Message);
                 return NotFound(e.Message);
             }
             catch (Exception e)
             {
-                _logger.LogError(e.Message);
                 return BadRequest(e.Message);
             }
         }
 
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<string>> Get(Guid id)
         {
-            return "value";
+            try
+            {
+                var _customer = await _customerService.GetByIdAsync(id);
+                return new OkObjectResult(_customer);
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] CustomerDto customerDto)
         {
+            try
+            {
+                if (customerDto == null)
+                    return BadRequest();
+
+                var _customerDto = _mapper.Map<Customer>(customerDto);
+                var _customerReturn = _customerService.AddRangeAsync(_customerDto);
+
+                return Created("/", "Created");
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message + " | " + e.InnerException.Message);
+            }
         }
 
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put([FromBody] CustomerDto customerDto)
         {
+            try
+            {
+                var _customer = _mapper.Map<Customer>(customerDto);
+
+                _customerService.UpdateAsync(_customer);
+                return Ok(customerDto);
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message + " | " + e.InnerException.Message);
+            }
         }
 
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromUri] Guid id)
         {
+            try
+            {
+                var _customer = await _customerService.GetByIdAsync(id);
+
+                if (_customer != null)
+                {
+                    await _customerService.DeleteAsync(_customer);
+                }
+
+                return Ok();
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
     }
 }
