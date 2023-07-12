@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "REDEtW8Rsl3ioksIh6uJqxScpdxXekIz9NMwRIaOGRg=",
+  "Source": "webadmin.Ui.Api",
+  "BasePath": "_content/webadmin.Ui.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -11,14 +11,6 @@ namespace webadmin.Domain.Service.Services
         {
             _repositoryBase = repositoryBase;
         }
-        public Task AddRangeAsync(TEntity entity)
-        {
-            return _repositoryBase.AddRangeAsync(entity);
-        }
-        public Task DeleteAsync(TEntity entity)
-        {
-            return _repositoryBase.DeleteAsync(entity);
-        }
         public Task<IEnumerable<TEntity>> GetAllAsync()
         {
             return _repositoryBase.GetAllAsync();
@@ -27,9 +19,17 @@ namespace webadmin.Domain.Service.Services
         {
             return _repositoryBase.GetByIdAsync(id);
         }
+        public Task AddRangeAsync(TEntity entity)
+        {
+            return _repositoryBase.AddRangeAsync(entity);
+        }
+        public Task DeleteAsync(TEntity entity)
+        {
+            return _repositoryBase.DeleteAsync(entity);
+        }
         public Task UpdateAsync(TEntity entity)
         {
             return _repositoryBase.UpdateAsync(entity);
-        }        
+        }
     }
 }

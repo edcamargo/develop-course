@@ -1,0 +1,17 @@
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.csproj.AssemblyReference.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.AssemblyInfoInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.AssemblyInfo.cs
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.csproj.CoreCompileInputs.cache
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.Service.deps.json
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.Service.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.Service.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.Core.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.Core.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\bin\Debug\net7.0\webadmin.Domain.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.csproj.CopyComplete
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\refint\webadmin.Domain.Service.dll
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\webadmin.Domain.Service.pdb
+C:\Projetos\develop-course\backend\webadmin\webadmin.Domain.Service\obj\Debug\net7.0\ref\webadmin.Domain.Service.dll
