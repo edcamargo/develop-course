@@ -64,36 +64,25 @@ namespace webadmin.Ui.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] CustomerDto customerDto)
+        public async Task<IActionResult> Post([FromBody] CustomerDto customerDto)
         {
-            try
-            {
-                if (customerDto == null)
+             if (customerDto == null)
                     return BadRequest();
 
-                var _customerDto = _mapper.Map<Customer>(customerDto);
-                var _customerReturn = _customerService.AddRangeAsync(_customerDto);
+            var _customerDto = _mapper.Map<Customer>(customerDto);
+            await _customerService.AddRangeAsync(_customerDto);
 
-                return Created("/", "Created");
-            }
-            catch (ArgumentNullException e)
-            {
-                return NotFound(e.Message);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message + " | " + e.InnerException.Message);
-            }
+            return Created("/", "Created");
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put([FromBody] CustomerDto customerDto)
+        public async Task<IActionResult> Put([FromBody] CustomerDto customerDto)
         {
             try
             {
                 var _customer = _mapper.Map<Customer>(customerDto);
+                await _customerService.UpdateAsync(_customer);
 
-                _customerService.UpdateAsync(_customer);
                 return Ok(customerDto);
             }
             catch (ArgumentNullException e)
