@@ -15,7 +15,6 @@ Criação de curso de programação backend
 # Repository GitHub and Actions
 	Branches
 		dev
-		hom  - Bloqueada
 		main - Bloqueada
 
 # Entity
