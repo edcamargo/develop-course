@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\webadmin.Ui.Api.props" />
-</Project>

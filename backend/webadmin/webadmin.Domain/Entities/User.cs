@@ -9,8 +9,10 @@ namespace webadmin.Domain.Entities
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+
         // Contrutores de sobrecarga
         public User(){ }
+        
         public User(string name, string email, string password)
         {
             Name = name;

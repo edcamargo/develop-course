@@ -10,14 +10,13 @@ namespace webadmin.Domain.Entities
         public string Name { get; private set; }
         public string City { get; private set; }
         public string Email { get; private set; }
-        public User User { get; private set; }
+        //public User User { get; private set; }
         //public Customer() { }
-        public Customer(string name, string city, string email, User user)
+        public Customer(string name, string city, string email)
         {
             Name = name;
             City = city;
             Email = email;
-            User = user;
         }
 
         public ValidationResult EhValido()
@@ -28,7 +27,7 @@ namespace webadmin.Domain.Entities
     internal class CustomerValidation : AbstractValidator<Customer>
     {
         public static string NameErroMsg => "Nome inválido.";
-        public static string CityErroMsg => "Salario inválido.";
+        public static string CityErroMsg => "Cidade inválido.";
         public static string EmailErroMsg => "E-mail inválido";
         public static string UserErroMsg => "Usuário inválido";
 
@@ -46,10 +45,6 @@ namespace webadmin.Domain.Entities
                 .NotEmpty()
                 .EmailAddress()
                 .WithMessage(EmailErroMsg);
-
-            RuleFor(c => c.User)
-                .NotEmpty()
-                .WithMessage(UserErroMsg);
         }
     }
 }
