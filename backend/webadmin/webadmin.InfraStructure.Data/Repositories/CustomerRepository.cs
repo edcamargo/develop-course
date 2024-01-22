@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using webadmin.Domain.Core.Interfaces.Repositories;
+﻿using webadmin.Domain.Core.Interfaces.Repositories;
 using webadmin.Domain.Entities;
 using webadmin.InfraStructure.Data.Context;
 

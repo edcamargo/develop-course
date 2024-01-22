@@ -50,6 +50,8 @@ namespace webadmin.Ui.Api.Controllers
         {
             try
             {
+                _logger.LogInformation("Entrou no get by id");
+
                 var _customer = await _customerService.GetByIdAsync(id);
                 return new OkObjectResult(_customer);
             }
@@ -66,7 +68,9 @@ namespace webadmin.Ui.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CustomerDto customerDto)
         {
-             if (customerDto == null)
+            _logger.LogInformation("Entrou no post");
+
+            if (customerDto == null)
                     return BadRequest();
 
             var _customerDto = _mapper.Map<Customer>(customerDto);
