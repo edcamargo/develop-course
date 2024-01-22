@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MkhHJcZjthCeFn+hsD9R0uHJyie2EAd3ZkidyOnNb0IrvCHBksxqid8y/EZNS8jWNMK8iABwRThFUup2B0GKhA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\develop-course\\backend\\webadmin\\webadmin.Domain.Service\\webadmin.Domain.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edwin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\edwin\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\edwin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
