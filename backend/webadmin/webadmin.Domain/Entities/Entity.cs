@@ -5,7 +5,7 @@
         protected Entity()
         {
             Id = Guid.NewGuid();
-            DateRegister = null;
+            DateRegister = DateTime.Now;
         }
         
         public Guid Id { get; private set; }
@@ -13,8 +13,9 @@
         
         public bool Equals(Entity other) 
             => Id == other?.Id;
-        public void ConfirmationDateRegister() 
-            => DateRegister = DateTime.Now;
+
+        // public void ConfirmationDateRegister() => DateRegister = DateTime.Now;
+        
         public override int GetHashCode() 
             => (GetType().GetHashCode() * 907) + Id.GetHashCode();
     }
