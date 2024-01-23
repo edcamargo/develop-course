@@ -84,6 +84,8 @@ namespace webadmin.Ui.Api.Controllers
         {
             try
             {
+                _logger.LogInformation("Entrou no put");
+
                 var _customer = _mapper.Map<Customer>(customerDto);
                 await _customerService.UpdateAsync(_customer);
 
