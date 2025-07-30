@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ejWFakDsKw=",
+  "success": true,
+  "projectFilePath": "/Users/local/source/develop-course/backend/webadmin/webadmin.Domain/webadmin.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/local/.nuget/packages/fluentvalidation/11.6.0/fluentvalidation.11.6.0.nupkg.sha512",
+    "/Users/local/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/local/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
